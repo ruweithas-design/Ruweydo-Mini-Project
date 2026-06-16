@@ -1,37 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ruweydo Website - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali Tech Solution</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px gray;
+        }
+
+        header{
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            float: left;
+            width: 150px;
+            background-color: #1e293b;
+            min-height: 400px;
+            padding: 10px;
+        }
+
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li{
+            margin: 15px 0;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover{
+            color: yellow;
+        }
+
+        main{
+            margin-left: 170px;
+            padding: 20px;
+            background-color: white;
+            color: #333;
+        }
+
+        h3{
+            color: #0d6efd;
+        }
+
+        footer{
+            text-align: center;
+            background-color: #0f172a;
+            color: white;
+            padding: 15px;
+            clear: both;
+        }
+    </style>
 </head>
-<body class="home-bg">
 
-    <nav>
-        <a href="index.html"><img src="images/home.png" alt="Home"></a>
-        <a href="about.html"><img src="images/about.png" alt="About"></a>
-        <a href="services.html"><img src="images/services.png" alt="Services"></a>
-        <a href="gallery.html"><img src="images/gallery.png" alt="Gallery"></a>
-        <a href="contact.html"><img src="images/contact.png" alt="Contact"></a>
-    </nav>
+<body>
 
-    <main>
-        <h1>Welcome to Ruweydo Website</h1>
-        <h2>My name is Ruweydo</h2>
+    <div class="container">
 
-        <p>
-            I am a beginner web developer and I study at Jamhuuriya University.
-            This website is my HTML mini project.
-        </p>
+        <header>
+            <h1> Welcome to Future Vision Technologies</h1>
+        </header>
 
-        <img src="images/support1.jpg" alt="Support image" class="main-image">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photo.html">Photo</a></li>
+                <li><a href="form.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-        <h3>My Skills</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Website Design</li>
-        </ul>
-    </main>
+        <main>
+            <h3> Future Vision Technologies</h3>
+
+            <p>
+               Future Vision Technologies waa shirkad casri ah oo bixisa adeegyo teknoolajiyadeed oo tayo sare leh. Shirkaddu waxay ku takhasustay horumarinta website-yada, naqshadaynta dijitaalka ah, iyo xalalka ganacsiga ee casriga ah. Ujeeddadeennu waa inaan macaamiisheena siino adeegyo la isku halayn karo oo ka caawiya inay gaaraan yoolalkooda. Waxaan ku shaqaynaa hal-abuur, tayo, iyo daacadnimo si aan u dhisno mustaqbal dijitaal ah oo wanaagsan.
+            </p>
+
+            <p>
+                Hadafkeennu waa inaan ganacsiyada Soomaaliyeed ka caawinno
+                inay u guuraan nidaamka dhijitaalka ah.
+            </p>
+
+            <h3>Adeegyada Shirkadda</h3>
+
+            <ol>
+                <li>Web Development </li>
+                <li> UI/UX Design</li>
+                <li> IT Consulting</li>
+                <li> Digital Marketing</li>
+             
+            </ol>
+        </main>
+
+        <footer>
+            <h3>&copy; FVT 2020</h3>
+        </footer>
+
+    </div>
 
 </body>
 </html>
